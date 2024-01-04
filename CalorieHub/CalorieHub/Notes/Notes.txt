@@ -1,0 +1,38 @@
+
+
+1. Main idea
+// build app that allows users to track the type and amount of calories eaten each day
+
+// initially ask user to store their height and weight, and their goal calories
+// incorporate health kit to track steps
+// track hours fasted
+
+// add an onboarding view 
+
+1a. Foods - users can edit, delete, etc foods for each day.
+    each day should show a list of foods and the calories. create data models
+    datamodel: calories (required), macros/micros (optionals), vitamins, key nutrients, date created
+    
+    1. Calorie + food / health app - practice navigation stack, navigation link/dest, lists, SwiftData, health kit
+    1. Make custom tab view 
+    
+1b. Fasting - users should input how many hours they fasted and when they broke their fast
+    
+1c. Steps/health - incorporate health kit to read user's nutrition, calories but also allow health kit to
+    write to the app indicating steps taken and calories burned
+    // mayb retrieve data from health kit to display it as a chart  (steps, calories)
+
+
+
+HealthKit :
+1. Classes/Methods used :
+1a. HKSample(HKQuantitySample), HKObjectType(HKQuantityType), and HKQuantity
+2. Healthstore, authorizationStatus, requestAuthorization
+
+
+Great writeup for swiftdata and populating containers : https://www.andrewcbancroft.com/blog/ios-development/data-persistence/pre-populate-swiftdata-persistent-store/
+
+Known issues in #PREVIEW:
+1. Populating #Preview with sample swift data :
+    - Solved using an external preview which created a sample model container with data
+    - Can't seem to populate more than 1 Model in a container. My Food model works, but trying to incorporate the UserGoals model crashes in preview
