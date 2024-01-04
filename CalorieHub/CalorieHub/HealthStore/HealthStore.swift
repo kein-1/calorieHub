@@ -42,7 +42,6 @@ class HealthStore {
 //    NSHealthShareUsageDescription customizes the message for reading data.
 //    NSHealthUpdateUsageDescription customizes the message for writing data.
     
-    
     func requestAuthorization() {
         // These return optionals so unwrap. Basically sets up the data we want to read/write
         guard let stepCount = HKQuantityType.quantityType(forIdentifier: .stepCount) else { return }

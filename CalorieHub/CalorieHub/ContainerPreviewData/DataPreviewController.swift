@@ -18,31 +18,27 @@ class DataPreviewController {
         do {
             // This sets configuration allowing data to NOT be saved across instances of app launches. Useful for testing/preview
             // Basically saying for each of the data types, this will be its configuration. We do this for more explicit control
-            
             let config = ModelConfiguration(for: Food.self, UserGoals.self, isStoredInMemoryOnly: true)
             
             // VERY IMPORTANT Note : Make only ONE model config.. i was making separate ones and it crashed my code for the container
+            // Seems to work fine in simulator though
             let container = try ModelContainer(for: Food.self, UserGoals.self, configurations: config)
             
             
             let sampleData : [Food] = [
-                Food("Chicken Salad", "Salad", "350", "25", "15", "20", "Lunch"),
-                Food("Caesar Salad", "Salad", "300", "20", "10","20", "Dinner"),
+                Food("Chicken Salad", "Salad", "150", "25", "15", "20", "Lunch"),
+                Food("Caesar Salad", "Salad", "220", "20", "10","20", "Dinner"),
                 
-                Food("Spaghetti Bolognese", "Pasta", "450", "20", "30", "40", "Dinner"),
-                Food("Penne Arrabiata", "Pasta", "400", "15", "25", "35", "Snack"),
+                Food("Spaghetti Bolognese", "Pasta", "150", "20", "30", "40", "Dinner"),
                 
-                Food("Fruit Smoothie", "Smoothie", "200", "5", "30", "20","Breakfast"),
-                Food("Green Smoothie", "Smoothie", "180", "3", "25","20", "Breakfast"),
+                Food("Green Smoothie", "Smoothie", "200", "3", "25","20", "Breakfast"),
                 
-                Food("Granola Bar", "Snack", "150", "8", "2", "20", "Snack"),
-                Food("Mixed Nuts", "Snack", "200", "15", "5", "10","Misc."),
+                Food("Granola Bar", "Snack", "120", "8", "2", "20", "Snack"),
+                Food("Mixed Nuts", "Snack", "150", "15", "5", "10","Misc."),
                 
-                Food("Grilled Chicken", "Misc.", "300", "30", "5", "20","Lunch"),
-                Food("Vegetable Stir-Fry", "Misc.", "250", "15", "30", "20","Dinner"),
+                Food("Vegetable Stir-Fry", "Misc.", "250", "7", "30", "20","Dinner"),
                 
-                Food("Dumplings", "Misc.", "300", "30", "5", "20","Lunch"),
-                Food("Hot Pot", "Misc.", "300", "30", "5", "20","Lunch")
+                Food("Hot Pot", "Misc.", "200", "10", "5", "20","Lunch")
             ]
             
             for data in sampleData {
@@ -50,7 +46,7 @@ class DataPreviewController {
             }
             
             let sampleData2 = UserGoals(2000.5, 15000.5)
-            sampleData2.updateAll(1800, 50, 90, 140)
+            sampleData2.updateAll(2000, 60, 100, 190)
             
             container.mainContext.insert(sampleData2)
             

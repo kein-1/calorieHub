@@ -16,7 +16,10 @@ struct DashBoardView: View {
     
 
     var body: some View {
-        Nutritient_Card()
+        VStack {
+            CaloriesEatenAndBurnedView()
+            Nutritient_Card()
+        }
     }
 }
     

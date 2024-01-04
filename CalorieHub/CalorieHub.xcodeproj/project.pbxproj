@@ -22,6 +22,9 @@
 		8C8CC1C52B328EC20084B4DE /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8C8CC1C12B328EC20084B4DE /* Notes.txt */; };
 		8C8CC1C62B328EC20084B4DE /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8CC1C22B328EC20084B4DE /* Food.swift */; };
 		8C8CC1C72B328EC20084B4DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8CC1C32B328EC20084B4DE /* ContentView.swift */; };
+		8C8E711C2B473546003028BF /* CaloriesEatenAndBurnedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E711B2B473546003028BF /* CaloriesEatenAndBurnedView.swift */; };
+		8C8E711E2B474F39003028BF /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E711D2B474F39003028BF /* CircularProgressView.swift */; };
+		8C8E71202B4762AD003028BF /* MacroProgressCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E711F2B4762AD003028BF /* MacroProgressCardView.swift */; };
 		8C971C0C2B428B8D0085061E /* PersonalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C971C0B2B428B8D0085061E /* PersonalView.swift */; };
 		8C971C0F2B43471E0085061E /* EditorFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C971C0E2B43471E0085061E /* EditorFoodView.swift */; };
 		8C971C132B4373DF0085061E /* DashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C971C122B4373DF0085061E /* DashBoardView.swift */; };
@@ -55,6 +58,9 @@
 		8C8CC1C22B328EC20084B4DE /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		8C8CC1C32B328EC20084B4DE /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8C8CC1C82B328EE90084B4DE /* CalorieHub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CalorieHub.entitlements; sourceTree = "<group>"; };
+		8C8E711B2B473546003028BF /* CaloriesEatenAndBurnedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesEatenAndBurnedView.swift; sourceTree = "<group>"; };
+		8C8E711D2B474F39003028BF /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		8C8E711F2B4762AD003028BF /* MacroProgressCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroProgressCardView.swift; sourceTree = "<group>"; };
 		8C971C0B2B428B8D0085061E /* PersonalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalView.swift; sourceTree = "<group>"; };
 		8C971C0E2B43471E0085061E /* EditorFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorFoodView.swift; sourceTree = "<group>"; };
 		8C971C122B4373DF0085061E /* DashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardView.swift; sourceTree = "<group>"; };
@@ -180,6 +186,9 @@
 			children = (
 				8C971C122B4373DF0085061E /* DashBoardView.swift */,
 				8C971C152B449ECC0085061E /* NutritionCard.swift */,
+				8C8E711B2B473546003028BF /* CaloriesEatenAndBurnedView.swift */,
+				8C8E711D2B474F39003028BF /* CircularProgressView.swift */,
+				8C8E711F2B4762AD003028BF /* MacroProgressCardView.swift */,
 			);
 			path = DashboardViews;
 			sourceTree = "<group>";
@@ -309,10 +318,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C971C182B450AF80085061E /* PersonalInfoMacrosView.swift in Sources */,
+				8C8E711E2B474F39003028BF /* CircularProgressView.swift in Sources */,
 				8C2D9F832B329F17009180F7 /* PersonalInfoView.swift in Sources */,
 				8C8CC1C62B328EC20084B4DE /* Food.swift in Sources */,
 				8C8CC1B32B328EA40084B4DE /* CalorieHubApp.swift in Sources */,
 				8C2D9F932B3DE0C7009180F7 /* FoodCard.swift in Sources */,
+				8C8E71202B4762AD003028BF /* MacroProgressCardView.swift in Sources */,
 				8CB771232B40CE0C0010A191 /* FoodDisplayItem.swift in Sources */,
 				8C8CC1C72B328EC20084B4DE /* ContentView.swift in Sources */,
 				8C2D9F952B3F62C8009180F7 /* AddFoodForm.swift in Sources */,
@@ -320,6 +331,7 @@
 				8C971C132B4373DF0085061E /* DashBoardView.swift in Sources */,
 				8C8CC1C42B328EC20084B4DE /* HealthStore.swift in Sources */,
 				8C971C162B449ECC0085061E /* NutritionCard.swift in Sources */,
+				8C8E711C2B473546003028BF /* CaloriesEatenAndBurnedView.swift in Sources */,
 				8C971C0C2B428B8D0085061E /* PersonalView.swift in Sources */,
 				8C2D9F802B329D66009180F7 /* OnBoarding.swift in Sources */,
 				8CB771282B40E4710010A191 /* AddFoodFormSubView.swift in Sources */,

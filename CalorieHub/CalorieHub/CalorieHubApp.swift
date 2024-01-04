@@ -22,20 +22,20 @@ struct CalorieHubApp: App {
     @AppStorage("isOnBoarding") private var isOnBoarding : Bool = true
     
     
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environment(healthStore)
                 .environment(viewModel)
                 .modelContainer(DataPreviewController.mainContainer)
-//                .modelContainer(DataPreviewController.userGoalPreviewContainer)
+//                .modelContainer(for: [Food.self, UserGoals.self])
                 .fullScreenCover(isPresented: $isOnBoarding) {
                     OnBoarding(isOnboarding: $isOnBoarding)
                         .environment(healthStore) // had to add this here as well to allow environment
                         .modelContainer(DataPreviewController.mainContainer)
-//                        .modelContainer(DataPreviewController.userGoalPreviewContainer)
+//                        .modelContainer(for: [Food.self, UserGoals.self])
                 }
-                
         }
     }
 }
