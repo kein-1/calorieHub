@@ -17,7 +17,7 @@ struct Nutritient_Card: View {
     
     var body: some View {
         VStack {
-            RoundedRectangle(cornerRadius: 30)
+            RoundedRectangle(cornerRadius: 30.0)
                 .fill(.clear)
                 .strokeBorder(.orange, lineWidth: 3)
                 .shadow(radius: 3)

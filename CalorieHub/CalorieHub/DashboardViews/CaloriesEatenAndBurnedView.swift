@@ -21,28 +21,30 @@ struct CaloriesEatenAndBurnedView: View {
         HStack {
             
             VStack {
-                Text("Calories")
-                Text("1234")
+                Text("Eaten")
+                Text(viewModel.totalCalories.formatted())
             }
             Spacer()
            
-            CircularProgressView(progress: viewModel.progress, remainingCalories: viewModel.remainingCalories)
+            CircularProgressView(progress: viewModel.progressCalories, remainingCalories: viewModel.remainingCalories)
             
             Spacer()
             
             VStack {
-                Text("Steps")
-                Text("1234")
-                Text("\(viewModel.remainingCalories ?? 0)")
-                Text("\(viewModel.totalCalories)")
-                Text("\(viewModel.currentUserGoals?.dailyCaloriesGoal ?? 0)")
+                
+                if let caloriesBurned = healthStore.caloriesBurnedToday {
+                    Text(caloriesBurned.formatted())
+                    Text("Burned")
+                } else {
+                    Text("0")
+                    Text("Burned")
+                }
             }
         }
         .padding()
-        .background()
-        .border(.blue)
         .onAppear {
             viewModel.updateNutrition(foods, userGoals)
+            healthStore.readTodaysActivity()
         }
     }
 }
@@ -50,13 +52,13 @@ struct CaloriesEatenAndBurnedView: View {
 
 
 
-//
-//#Preview {
-//    let vm = ViewModel()
-//    let healthStore = HealthStore()
-//    return CaloriesEatenAndBurnedView()
-//        .modelContainer(DataPreviewController.mainContainer)
-//        .environment(vm)
-//        .environment(healthStore)
-//}
+
+#Preview {
+    let vm = ViewModel()
+    let healthStore = HealthStore()
+    return CaloriesEatenAndBurnedView()
+        .modelContainer(DataPreviewController.mainContainer)
+        .environment(vm)
+        .environment(healthStore)
+}
 

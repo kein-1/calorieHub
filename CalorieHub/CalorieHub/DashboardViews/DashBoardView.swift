@@ -13,12 +13,12 @@ import SwiftData
 // Designed to read user's steps, calories,
 // total goals etc for the day
 struct DashBoardView: View {
-    
 
     var body: some View {
         VStack {
             CaloriesEatenAndBurnedView()
             Nutritient_Card()
+            StepsProgressView()
         }
     }
 }

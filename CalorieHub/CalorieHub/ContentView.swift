@@ -41,8 +41,8 @@ struct ContentView: View {
 //
 #Preview {
     
-    var healthStore = HealthStore()
-    var viewModel = ViewModel()
+    let healthStore = HealthStore()
+    let viewModel = ViewModel()
     
     return ContentView()
         .environment(healthStore)

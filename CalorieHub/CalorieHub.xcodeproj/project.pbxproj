@@ -25,6 +25,7 @@
 		8C8E711C2B473546003028BF /* CaloriesEatenAndBurnedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E711B2B473546003028BF /* CaloriesEatenAndBurnedView.swift */; };
 		8C8E711E2B474F39003028BF /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E711D2B474F39003028BF /* CircularProgressView.swift */; };
 		8C8E71202B4762AD003028BF /* MacroProgressCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E711F2B4762AD003028BF /* MacroProgressCardView.swift */; };
+		8C8E71222B48BBF5003028BF /* StepsProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E71212B48BBF5003028BF /* StepsProgressView.swift */; };
 		8C971C0C2B428B8D0085061E /* PersonalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C971C0B2B428B8D0085061E /* PersonalView.swift */; };
 		8C971C0F2B43471E0085061E /* EditorFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C971C0E2B43471E0085061E /* EditorFoodView.swift */; };
 		8C971C132B4373DF0085061E /* DashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C971C122B4373DF0085061E /* DashBoardView.swift */; };
@@ -61,6 +62,7 @@
 		8C8E711B2B473546003028BF /* CaloriesEatenAndBurnedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesEatenAndBurnedView.swift; sourceTree = "<group>"; };
 		8C8E711D2B474F39003028BF /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		8C8E711F2B4762AD003028BF /* MacroProgressCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroProgressCardView.swift; sourceTree = "<group>"; };
+		8C8E71212B48BBF5003028BF /* StepsProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsProgressView.swift; sourceTree = "<group>"; };
 		8C971C0B2B428B8D0085061E /* PersonalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalView.swift; sourceTree = "<group>"; };
 		8C971C0E2B43471E0085061E /* EditorFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorFoodView.swift; sourceTree = "<group>"; };
 		8C971C122B4373DF0085061E /* DashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardView.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				8C971C152B449ECC0085061E /* NutritionCard.swift */,
 				8C8E711B2B473546003028BF /* CaloriesEatenAndBurnedView.swift */,
 				8C8E711D2B474F39003028BF /* CircularProgressView.swift */,
+				8C8E71212B48BBF5003028BF /* StepsProgressView.swift */,
 				8C8E711F2B4762AD003028BF /* MacroProgressCardView.swift */,
 			);
 			path = DashboardViews;
@@ -330,6 +333,7 @@
 				8CB771212B40B8BA0010A191 /* ViewModel.swift in Sources */,
 				8C971C132B4373DF0085061E /* DashBoardView.swift in Sources */,
 				8C8CC1C42B328EC20084B4DE /* HealthStore.swift in Sources */,
+				8C8E71222B48BBF5003028BF /* StepsProgressView.swift in Sources */,
 				8C971C162B449ECC0085061E /* NutritionCard.swift in Sources */,
 				8C8E711C2B473546003028BF /* CaloriesEatenAndBurnedView.swift in Sources */,
 				8C971C0C2B428B8D0085061E /* PersonalView.swift in Sources */,

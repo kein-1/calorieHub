@@ -30,13 +30,19 @@ class ViewModel {
         return nil
     }
     
-    var progress : Double {
+    var progressCalories : Double {
         if let dailyCaloriesGoal = currentUserGoals?.dailyCaloriesGoal {
             return Double(totalCalories)/Double(dailyCaloriesGoal)
         }
         return 0.0
     }
     
+    func progressSteps() -> Double {
+        if let dailyStepsGoal = currentUserGoals?.stepsGoal {
+            return dailyStepsGoal
+        }
+        return 0.0
+    }
 
     func updateNutrition(_ foods : [Food], _ userGoals : [UserGoals]){
         

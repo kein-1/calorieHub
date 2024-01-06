@@ -76,10 +76,14 @@ struct PersonalInfoMacrosView: View {
                 CustomLabel(text: "Next")
             }
         }
+        .onAppear {
+            healthStore.requestAuthStepsAndCaloriesBurned()
+        }
+        
     }
     
     func saveInfo(){
-        var userGoal = userGoals[0]
+        let userGoal = userGoals[0]
         userGoal.updateAll(userCalories, userFats, userProteins, userCarbs)
     }
 }
