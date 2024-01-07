@@ -26,6 +26,18 @@
 		8C8E711E2B474F39003028BF /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E711D2B474F39003028BF /* CircularProgressView.swift */; };
 		8C8E71202B4762AD003028BF /* MacroProgressCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E711F2B4762AD003028BF /* MacroProgressCardView.swift */; };
 		8C8E71222B48BBF5003028BF /* StepsProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E71212B48BBF5003028BF /* StepsProgressView.swift */; };
+		8C8E71242B48FDF8003028BF /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E71232B48FDF8003028BF /* test.swift */; };
+		8C8E71262B4A5BEB003028BF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E71252B4A5BEB003028BF /* README.md */; };
+		8C8E71312B4A5FF5003028BF /* Dashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E71282B4A5FF4003028BF /* Dashboard.png */; };
+		8C8E71322B4A5FF5003028BF /* Finish.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E71292B4A5FF4003028BF /* Finish.png */; };
+		8C8E71332B4A5FF5003028BF /* Editor.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E712A2B4A5FF4003028BF /* Editor.png */; };
+		8C8E71342B4A5FF5003028BF /* Goals2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E712B2B4A5FF4003028BF /* Goals2.png */; };
+		8C8E71352B4A5FF5003028BF /* Goals.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E712C2B4A5FF4003028BF /* Goals.png */; };
+		8C8E71362B4A5FF5003028BF /* Meals.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E712D2B4A5FF4003028BF /* Meals.png */; };
+		8C8E71382B4A5FF5003028BF /* HealthAccess1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E712F2B4A5FF5003028BF /* HealthAccess1.png */; };
+		8C8E71392B4A5FF5003028BF /* HealthAccess2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E71302B4A5FF5003028BF /* HealthAccess2.png */; };
+		8C8E713C2B4A60AC003028BF /* Opening.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E713A2B4A60AC003028BF /* Opening.png */; };
+		8C8E713F2B4A621C003028BF /* AddFoodForm.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E713E2B4A621C003028BF /* AddFoodForm.png */; };
 		8C971C0C2B428B8D0085061E /* PersonalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C971C0B2B428B8D0085061E /* PersonalView.swift */; };
 		8C971C0F2B43471E0085061E /* EditorFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C971C0E2B43471E0085061E /* EditorFoodView.swift */; };
 		8C971C132B4373DF0085061E /* DashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C971C122B4373DF0085061E /* DashBoardView.swift */; };
@@ -63,6 +75,18 @@
 		8C8E711D2B474F39003028BF /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		8C8E711F2B4762AD003028BF /* MacroProgressCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroProgressCardView.swift; sourceTree = "<group>"; };
 		8C8E71212B48BBF5003028BF /* StepsProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsProgressView.swift; sourceTree = "<group>"; };
+		8C8E71232B48FDF8003028BF /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		8C8E71252B4A5BEB003028BF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8C8E71282B4A5FF4003028BF /* Dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dashboard.png; sourceTree = "<group>"; };
+		8C8E71292B4A5FF4003028BF /* Finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Finish.png; sourceTree = "<group>"; };
+		8C8E712A2B4A5FF4003028BF /* Editor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Editor.png; sourceTree = "<group>"; };
+		8C8E712B2B4A5FF4003028BF /* Goals2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Goals2.png; sourceTree = "<group>"; };
+		8C8E712C2B4A5FF4003028BF /* Goals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Goals.png; sourceTree = "<group>"; };
+		8C8E712D2B4A5FF4003028BF /* Meals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Meals.png; sourceTree = "<group>"; };
+		8C8E712F2B4A5FF5003028BF /* HealthAccess1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HealthAccess1.png; sourceTree = "<group>"; };
+		8C8E71302B4A5FF5003028BF /* HealthAccess2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HealthAccess2.png; sourceTree = "<group>"; };
+		8C8E713A2B4A60AC003028BF /* Opening.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Opening.png; sourceTree = "<group>"; };
+		8C8E713E2B4A621C003028BF /* AddFoodForm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddFoodForm.png; sourceTree = "<group>"; };
 		8C971C0B2B428B8D0085061E /* PersonalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalView.swift; sourceTree = "<group>"; };
 		8C971C0E2B43471E0085061E /* EditorFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorFoodView.swift; sourceTree = "<group>"; };
 		8C971C122B4373DF0085061E /* DashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardView.swift; sourceTree = "<group>"; };
@@ -121,6 +145,7 @@
 		8C8CC1A62B328EA40084B4DE = {
 			isa = PBXGroup;
 			children = (
+				8C8E71252B4A5BEB003028BF /* README.md */,
 				8C8CC1B12B328EA40084B4DE /* CalorieHub */,
 				8C8CC1B02B328EA40084B4DE /* Products */,
 			);
@@ -137,6 +162,7 @@
 		8C8CC1B12B328EA40084B4DE /* CalorieHub */ = {
 			isa = PBXGroup;
 			children = (
+				8C8E71272B4A5C05003028BF /* ScreenShots */,
 				8C971C142B449E830085061E /* MealViews */,
 				8C971C0D2B4346FC0085061E /* DashboardViews */,
 				8CE944252B42144500E254BD /* ContainerPreviewData */,
@@ -183,10 +209,28 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		8C8E71272B4A5C05003028BF /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				8C8E712F2B4A5FF5003028BF /* HealthAccess1.png */,
+				8C8E712C2B4A5FF4003028BF /* Goals.png */,
+				8C8E71302B4A5FF5003028BF /* HealthAccess2.png */,
+				8C8E712B2B4A5FF4003028BF /* Goals2.png */,
+				8C8E71292B4A5FF4003028BF /* Finish.png */,
+				8C8E713A2B4A60AC003028BF /* Opening.png */,
+				8C8E712D2B4A5FF4003028BF /* Meals.png */,
+				8C8E713E2B4A621C003028BF /* AddFoodForm.png */,
+				8C8E712A2B4A5FF4003028BF /* Editor.png */,
+				8C8E71282B4A5FF4003028BF /* Dashboard.png */,
+			);
+			path = ScreenShots;
+			sourceTree = "<group>";
+		};
 		8C971C0D2B4346FC0085061E /* DashboardViews */ = {
 			isa = PBXGroup;
 			children = (
 				8C971C122B4373DF0085061E /* DashBoardView.swift */,
+				8C8E71232B48FDF8003028BF /* test.swift */,
 				8C971C152B449ECC0085061E /* NutritionCard.swift */,
 				8C8E711B2B473546003028BF /* CaloriesEatenAndBurnedView.swift */,
 				8C8E711D2B474F39003028BF /* CircularProgressView.swift */,
@@ -307,8 +351,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C8E713F2B4A621C003028BF /* AddFoodForm.png in Resources */,
+				8C8E713C2B4A60AC003028BF /* Opening.png in Resources */,
+				8C8E71322B4A5FF5003028BF /* Finish.png in Resources */,
+				8C8E71332B4A5FF5003028BF /* Editor.png in Resources */,
+				8C8E71342B4A5FF5003028BF /* Goals2.png in Resources */,
+				8C8E71382B4A5FF5003028BF /* HealthAccess1.png in Resources */,
+				8C8E71312B4A5FF5003028BF /* Dashboard.png in Resources */,
 				8C8CC1BA2B328EA60084B4DE /* Preview Assets.xcassets in Resources */,
+				8C8E71392B4A5FF5003028BF /* HealthAccess2.png in Resources */,
 				8C8CC1C52B328EC20084B4DE /* Notes.txt in Resources */,
+				8C8E71352B4A5FF5003028BF /* Goals.png in Resources */,
+				8C8E71262B4A5BEB003028BF /* README.md in Resources */,
+				8C8E71362B4A5FF5003028BF /* Meals.png in Resources */,
 				8C8CC1B72B328EA60084B4DE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +388,7 @@
 				8CB771212B40B8BA0010A191 /* ViewModel.swift in Sources */,
 				8C971C132B4373DF0085061E /* DashBoardView.swift in Sources */,
 				8C8CC1C42B328EC20084B4DE /* HealthStore.swift in Sources */,
+				8C8E71242B48FDF8003028BF /* test.swift in Sources */,
 				8C8E71222B48BBF5003028BF /* StepsProgressView.swift in Sources */,
 				8C971C162B449ECC0085061E /* NutritionCard.swift in Sources */,
 				8C8E711C2B473546003028BF /* CaloriesEatenAndBurnedView.swift in Sources */,

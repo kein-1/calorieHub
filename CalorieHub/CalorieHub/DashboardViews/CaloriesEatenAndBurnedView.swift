@@ -18,47 +18,73 @@ struct CaloriesEatenAndBurnedView: View {
     @Query var userGoals : [UserGoals]
     
     var body: some View {
-        HStack {
-            
-            VStack {
-                Text("Eaten")
-                Text(viewModel.totalCalories.formatted())
-            }
-            Spacer()
-           
-            CircularProgressView(progress: viewModel.progressCalories, remainingCalories: viewModel.remainingCalories)
-            
-            Spacer()
-            
-            VStack {
-                
-                if let caloriesBurned = healthStore.caloriesBurnedToday {
-                    Text(caloriesBurned.formatted())
-                    Text("Burned")
-                } else {
-                    Text("0")
-                    Text("Burned")
+        VStack(alignment: .leading) {
+            Text("Calorie Progress")
+                .font(.subheadline)
+            HStack {
+                VStack {
+                    
+                    Text(viewModel.totalCalories.formatted())
+                        .font(.system(size: 24))
+                    HStack {
+                        Text("Eaten")
+                            .font(.caption)
+                        Image(systemName: "heart.fill")
+                        
+                    }
                 }
+                
+                Spacer()
+                
+                CircularProgressView(progress: viewModel.progressCalories, remainingCalories: viewModel.remainingCalories)
+                
+                Spacer()
+                
+                VStack {
+                    if let caloriesBurned = healthStore.caloriesBurnedToday {
+                        Text(caloriesBurned.formatted())
+                            .font(.system(size: 24))
+                        HStack {
+                            Text("Burned")
+                                .font(.caption)
+                            Image(systemName: "flame")
+                        }
+                        
+                    } else {
+                        Text("0")
+                            .font(.system(size: 24))
+                        HStack {
+                            Text("Burned")
+                                .font(.caption)
+                            Image(systemName: "flame")
+                        }
+                    }
+                }
+            }
+            .foregroundStyle(.orange)
+            .padding()
+            .background(.ultraThickMaterial, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+            .onAppear {
+                viewModel.updateNutrition(foods, userGoals)
+                healthStore.readTodaysActivity()
             }
         }
         .padding()
-        .onAppear {
-            viewModel.updateNutrition(foods, userGoals)
-            healthStore.readTodaysActivity()
-        }
     }
 }
 
 
 
-
-
-#Preview {
-    let vm = ViewModel()
-    let healthStore = HealthStore()
-    return CaloriesEatenAndBurnedView()
-        .modelContainer(DataPreviewController.mainContainer)
-        .environment(vm)
-        .environment(healthStore)
-}
-
+//
+//
+//#Preview {
+//    let vm = ViewModel()
+//    let healthStore = HealthStore()
+//    healthStore.caloriesBurnedToday = 300
+//    healthStore.stepsTakenToday = 1500.0
+//    return CaloriesEatenAndBurnedView()
+//        .modelContainer(DataPreviewController.mainContainer)
+//        .environment(vm)
+//        .environment(healthStore)
+//}
+//

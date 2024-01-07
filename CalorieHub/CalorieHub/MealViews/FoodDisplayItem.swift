@@ -29,7 +29,10 @@ struct FoodDisplayItem: View {
         }
     }
 }
+
 //
 //#Preview {
-//    FoodDisplayItem()
+//    let food = Food("Vegetable Stir-Fry", "Misc.", "250", "7", "30", "20","Dinner")
+//    return FoodDisplayItem(food: food)
+//        .modelContainer(DataPreviewController.mainContainer)
 //}

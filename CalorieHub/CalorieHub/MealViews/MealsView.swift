@@ -16,7 +16,7 @@ struct MealsView: View {
 //    var currDate = viewModel.selectedDate
     
     @Query(filter: Food.currentPredicate()) var foods : [Food]
-    
+
     var body: some View {
         NavigationStack {
             FoodCategoryRowView()
@@ -61,12 +61,12 @@ struct MealsView: View {
     }
     
 }
-//
-//#Preview {
-//    var healthStore = HealthStore()
-//    var viewModel = ViewModel()
-//    return MealsView()
-//        .environment(healthStore)
-//        .environment(viewModel)
-//        .modelContainer(DataPreviewController.foodPreviewContainer)
-//}
+
+#Preview {
+    var healthStore = HealthStore()
+    var viewModel = ViewModel()
+    return MealsView()
+        .environment(healthStore)
+        .environment(viewModel)
+        .modelContainer(DataPreviewController.mainContainer)
+}

@@ -14,36 +14,36 @@ struct CircularProgressView : View {
     
     var body : some View {
         
-        ZStack {
-            Circle()
-                .stroke(
-                    .orange.opacity(0.5),
-                    lineWidth: 10)
-                .padding()
+        Circle()
+            .stroke(
+                .orange.opacity(0.5),
+                lineWidth: 12)
+            .overlay {
             
             if let remainingCalories {
                 VStack {
                     Text(remainingCalories.formatted())
-                        .font(.title)
+                        .font(.system(size: 24))
                     Text("kCal left")
                         .font(.subheadline)
                 }
+//                .foregroundStyle(.orange)
             }
             
             Circle()
                 .trim(from: 0, to: progress)
                 .stroke(
                     .orange,
-                    style: StrokeStyle(lineWidth: 10, lineCap: .round))
-                .padding()
+                    style: StrokeStyle(lineWidth: 12, lineCap: .round))
                 .rotationEffect(.degrees(-90))
         }
-        .border(.blue)
-        .frame(maxWidth: 200)
+        .padding()
+        .frame(maxWidth: 150)
         .animation(.easeInOut, value: progress)
     }
 }
-
+//
 //#Preview {
-//    CircularProgressView()
+//    CircularProgressView(progress: 800, remainingCalories: 150)
 //}
+//

@@ -19,12 +19,14 @@ struct MacroProgressCardView: View {
     var body: some View {
         VStack{
             Text(title)
+                .font(.system(size: 14))
             ProgressView(value: Double(value),
                          total: Double(total))
             .tint(color)
-            Text("\(valueInGrams) / \(totalInGrams)")
-                .font(.subheadline)
+            Text("\(valueInGrams) / \(totalInGrams) g")
+                .font(.system(size: 12))
         }
+        
     }
 }
 //

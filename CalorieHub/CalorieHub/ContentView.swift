@@ -13,12 +13,6 @@ struct ContentView: View {
     
     
     var body: some View {
-        VStack {
-            Text("caloriehub")
-                .font(.title)
-                .foregroundStyle(.orange)
-                .padding(.bottom, 15)
-            
             TabView {
                 DashBoardView()
                     .tabItem {
@@ -35,14 +29,16 @@ struct ContentView: View {
                         Label("Personal", systemImage: "person")
                     }
             }
-        }
     }
 }
-//
+
 #Preview {
     
     let healthStore = HealthStore()
     let viewModel = ViewModel()
+    
+    healthStore.stepsTakenToday = 5000
+    healthStore.caloriesBurnedToday = 300
     
     return ContentView()
         .environment(healthStore)

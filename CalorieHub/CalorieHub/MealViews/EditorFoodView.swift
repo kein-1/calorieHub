@@ -60,7 +60,6 @@ struct EditorFoodView: View {
 }
 //
 //#Preview {
-//    
 //    return EditorFoodView(food: Food("Granola Bar", "Snack", "150", "8", "2", "20", "Snack"))
-//        .modelContainer(DataPreviewController.foodPreviewContainer)
+//        .modelContainer(DataPreviewController.mainContainer)
 //}

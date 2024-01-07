@@ -15,10 +15,29 @@ import SwiftData
 struct DashBoardView: View {
 
     var body: some View {
-        VStack {
-            CaloriesEatenAndBurnedView()
-            Nutritient_Card()
-            StepsProgressView()
+        NavigationStack{
+            VStack {
+                CaloriesEatenAndBurnedView()
+                Nutritient_Card()
+                StepsProgressView()
+                Spacer()
+            }
+            .background(
+                LinearGradient(colors: [Color.white.opacity(0.7), Color.orange.opacity(0.3)], startPoint: .topLeading, endPoint: .bottomTrailing), ignoresSafeAreaEdges: [.top,.leading,.trailing])
+            .toolbar {
+                ToolbarItemGroup(placement: .primaryAction) {
+                    Image(systemName: "bell").badge(4)
+                    Image(systemName: "person").badge(2)
+                  }
+                
+                ToolbarItem(placement: .principal) {
+                    Text("calorieHub")
+                        .font(.system(size: 24))
+                        .foregroundStyle(.orange)
+                }
+            }
+            .navigationTitle("Today")
+            
         }
     }
 }
@@ -26,5 +45,5 @@ struct DashBoardView: View {
 //
 //#Preview {
 //    DashBoardView()
-//        .modelContainer(DataPreviewController.foodPreviewContainer)
+//        .modelContainer(DataPreviewController.mainContainer)
 //}

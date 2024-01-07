@@ -33,7 +33,6 @@ class DataPreviewController {
                 
                 Food("Green Smoothie", "Smoothie", "200", "3", "25","20", "Breakfast"),
                 
-                Food("Granola Bar", "Snack", "120", "8", "2", "20", "Snack"),
                 Food("Mixed Nuts", "Snack", "150", "15", "5", "10","Misc."),
                 
                 Food("Vegetable Stir-Fry", "Misc.", "250", "7", "30", "20","Dinner"),
@@ -45,8 +44,8 @@ class DataPreviewController {
                 container.mainContext.insert(data)
             }
             
-            let sampleData2 = UserGoals(2000.5, 15000.5)
-            sampleData2.updateAll(2000, 60, 100, 190)
+            let sampleData2 = UserGoals(2000.5, 10000)
+            sampleData2.updateAll(2000, 60, 150, 220)
             
             container.mainContext.insert(sampleData2)
             

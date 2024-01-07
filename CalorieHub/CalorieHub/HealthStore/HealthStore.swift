@@ -59,7 +59,7 @@ class HealthStore {
         
         healthStore.requestAuthorization(toShare: types , read: types) { (success, error) in
             if !success {
-                print("error in authorization")
+                print("error in authorization for height and weight")
             }
         }
     }
