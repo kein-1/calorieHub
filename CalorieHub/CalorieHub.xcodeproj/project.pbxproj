@@ -27,7 +27,6 @@
 		8C8E71202B4762AD003028BF /* MacroProgressCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E711F2B4762AD003028BF /* MacroProgressCardView.swift */; };
 		8C8E71222B48BBF5003028BF /* StepsProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E71212B48BBF5003028BF /* StepsProgressView.swift */; };
 		8C8E71242B48FDF8003028BF /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E71232B48FDF8003028BF /* test.swift */; };
-		8C8E71262B4A5BEB003028BF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E71252B4A5BEB003028BF /* README.md */; };
 		8C8E71312B4A5FF5003028BF /* Dashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E71282B4A5FF4003028BF /* Dashboard.png */; };
 		8C8E71322B4A5FF5003028BF /* Finish.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E71292B4A5FF4003028BF /* Finish.png */; };
 		8C8E71332B4A5FF5003028BF /* Editor.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E712A2B4A5FF4003028BF /* Editor.png */; };
@@ -76,7 +75,6 @@
 		8C8E711F2B4762AD003028BF /* MacroProgressCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroProgressCardView.swift; sourceTree = "<group>"; };
 		8C8E71212B48BBF5003028BF /* StepsProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsProgressView.swift; sourceTree = "<group>"; };
 		8C8E71232B48FDF8003028BF /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
-		8C8E71252B4A5BEB003028BF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8C8E71282B4A5FF4003028BF /* Dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dashboard.png; sourceTree = "<group>"; };
 		8C8E71292B4A5FF4003028BF /* Finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Finish.png; sourceTree = "<group>"; };
 		8C8E712A2B4A5FF4003028BF /* Editor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Editor.png; sourceTree = "<group>"; };
@@ -145,7 +143,6 @@
 		8C8CC1A62B328EA40084B4DE = {
 			isa = PBXGroup;
 			children = (
-				8C8E71252B4A5BEB003028BF /* README.md */,
 				8C8CC1B12B328EA40084B4DE /* CalorieHub */,
 				8C8CC1B02B328EA40084B4DE /* Products */,
 			);
@@ -362,7 +359,6 @@
 				8C8E71392B4A5FF5003028BF /* HealthAccess2.png in Resources */,
 				8C8CC1C52B328EC20084B4DE /* Notes.txt in Resources */,
 				8C8E71352B4A5FF5003028BF /* Goals.png in Resources */,
-				8C8E71262B4A5BEB003028BF /* README.md in Resources */,
 				8C8E71362B4A5FF5003028BF /* Meals.png in Resources */,
 				8C8CC1B72B328EA60084B4DE /* Assets.xcassets in Resources */,
 			);
