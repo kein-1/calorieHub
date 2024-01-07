@@ -29,7 +29,6 @@
 		8C8E71242B48FDF8003028BF /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E71232B48FDF8003028BF /* test.swift */; };
 		8C8E71312B4A5FF5003028BF /* Dashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E71282B4A5FF4003028BF /* Dashboard.png */; };
 		8C8E71322B4A5FF5003028BF /* Finish.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E71292B4A5FF4003028BF /* Finish.png */; };
-		8C8E71332B4A5FF5003028BF /* Editor.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E712A2B4A5FF4003028BF /* Editor.png */; };
 		8C8E71342B4A5FF5003028BF /* Goals2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E712B2B4A5FF4003028BF /* Goals2.png */; };
 		8C8E71352B4A5FF5003028BF /* Goals.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E712C2B4A5FF4003028BF /* Goals.png */; };
 		8C8E71362B4A5FF5003028BF /* Meals.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E712D2B4A5FF4003028BF /* Meals.png */; };
@@ -37,6 +36,7 @@
 		8C8E71392B4A5FF5003028BF /* HealthAccess2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E71302B4A5FF5003028BF /* HealthAccess2.png */; };
 		8C8E713C2B4A60AC003028BF /* Opening.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E713A2B4A60AC003028BF /* Opening.png */; };
 		8C8E713F2B4A621C003028BF /* AddFoodForm.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E713E2B4A621C003028BF /* AddFoodForm.png */; };
+		8C8E71412B4A6C60003028BF /* Editor.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C8E71402B4A6C60003028BF /* Editor.png */; };
 		8C971C0C2B428B8D0085061E /* PersonalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C971C0B2B428B8D0085061E /* PersonalView.swift */; };
 		8C971C0F2B43471E0085061E /* EditorFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C971C0E2B43471E0085061E /* EditorFoodView.swift */; };
 		8C971C132B4373DF0085061E /* DashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C971C122B4373DF0085061E /* DashBoardView.swift */; };
@@ -77,7 +77,6 @@
 		8C8E71232B48FDF8003028BF /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		8C8E71282B4A5FF4003028BF /* Dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dashboard.png; sourceTree = "<group>"; };
 		8C8E71292B4A5FF4003028BF /* Finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Finish.png; sourceTree = "<group>"; };
-		8C8E712A2B4A5FF4003028BF /* Editor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Editor.png; sourceTree = "<group>"; };
 		8C8E712B2B4A5FF4003028BF /* Goals2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Goals2.png; sourceTree = "<group>"; };
 		8C8E712C2B4A5FF4003028BF /* Goals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Goals.png; sourceTree = "<group>"; };
 		8C8E712D2B4A5FF4003028BF /* Meals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Meals.png; sourceTree = "<group>"; };
@@ -85,6 +84,7 @@
 		8C8E71302B4A5FF5003028BF /* HealthAccess2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HealthAccess2.png; sourceTree = "<group>"; };
 		8C8E713A2B4A60AC003028BF /* Opening.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Opening.png; sourceTree = "<group>"; };
 		8C8E713E2B4A621C003028BF /* AddFoodForm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddFoodForm.png; sourceTree = "<group>"; };
+		8C8E71402B4A6C60003028BF /* Editor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Editor.png; sourceTree = "<group>"; };
 		8C971C0B2B428B8D0085061E /* PersonalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalView.swift; sourceTree = "<group>"; };
 		8C971C0E2B43471E0085061E /* EditorFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorFoodView.swift; sourceTree = "<group>"; };
 		8C971C122B4373DF0085061E /* DashBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardView.swift; sourceTree = "<group>"; };
@@ -217,7 +217,7 @@
 				8C8E713A2B4A60AC003028BF /* Opening.png */,
 				8C8E712D2B4A5FF4003028BF /* Meals.png */,
 				8C8E713E2B4A621C003028BF /* AddFoodForm.png */,
-				8C8E712A2B4A5FF4003028BF /* Editor.png */,
+				8C8E71402B4A6C60003028BF /* Editor.png */,
 				8C8E71282B4A5FF4003028BF /* Dashboard.png */,
 			);
 			path = ScreenShots;
@@ -351,11 +351,11 @@
 				8C8E713F2B4A621C003028BF /* AddFoodForm.png in Resources */,
 				8C8E713C2B4A60AC003028BF /* Opening.png in Resources */,
 				8C8E71322B4A5FF5003028BF /* Finish.png in Resources */,
-				8C8E71332B4A5FF5003028BF /* Editor.png in Resources */,
 				8C8E71342B4A5FF5003028BF /* Goals2.png in Resources */,
 				8C8E71382B4A5FF5003028BF /* HealthAccess1.png in Resources */,
 				8C8E71312B4A5FF5003028BF /* Dashboard.png in Resources */,
 				8C8CC1BA2B328EA60084B4DE /* Preview Assets.xcassets in Resources */,
+				8C8E71412B4A6C60003028BF /* Editor.png in Resources */,
 				8C8E71392B4A5FF5003028BF /* HealthAccess2.png in Resources */,
 				8C8CC1C52B328EC20084B4DE /* Notes.txt in Resources */,
 				8C8E71352B4A5FF5003028BF /* Goals.png in Resources */,
